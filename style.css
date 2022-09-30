@@ -1,0 +1,29 @@
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/sobreNos.css);
+@import url(styles/ondeEncontrar.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+@font-face {
+    font-family: 'icones';
+    src: url(font/icones.ttf)
+}
+
+:root {
+    --verde-musgo: #242520;
+    --verde-escuro: #254433;
+    --verde-claro: #7C9647;
+    --laranja-escuro: #FFB113;
+    --laranja-claro: #FFC93B;
+    --branco-gelo: #D2E1DE;
+    --branco-cinza: #F1EFEF;
+    --fonte-principal: "Belgrano";
+    --fonte-secundaria: "Rubik Dirt";
+    --fonte-icone: 'icones';
+}
+
+body {
+    background: linear-gradient(var(--branco-cinza), var(--branco-gelo));
+    font-family: var(--fonte-principal), var(--fonte-icone), sans-serif;
+    line-height: 20px;
+}

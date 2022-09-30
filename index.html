@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo-aba.ico">
+	<title>Cervejaria Speranza</title>
+	<!-- font family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+	<!-- import css files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./styles/slider.css">
+
+</head>
+
+<body>
+	<header class="cabecalho">
+		<div class="container-cabecalho">
+			<!-- logo -->
+			<img src="./img/LOGO FINAL 2.png" alt="Logo Cervejaria Speranza" class="logo">
+			<!-- botao menu -->
+			<span class="cabecalho__menu-hamburguer"></span>
+		</div>
+		<div class="barra-divisoria"></div>
+		<nav class="cabecalho-nav">
+			<ul class="lista-menu">
+				<li class="lista-menu__item"><a href="#Sobre" class="lista-menu__link">Sobre nós</a></li>
+				<li class="lista-menu__item"><a href="#Mapa" class="lista-menu__link">Onde encontrar</a></li>
+				<li class="lista-menu__item"><a href="#Contato" class="lista-menu__link">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="principal">
+
+		<!-- Swiper -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"><img src="/cervejaria-speranza/img/slide1.jpg" alt="" class="swiper-slide__img"></div>
+			  <div class="swiper-slide"><img src="/cervejaria-speranza/img/slide2.jpg" alt="" class="swiper-slide__img"></div>
+			  <div class="swiper-slide"><img src="/cervejaria-speranza/img/slide3.jpg" alt="" class="swiper-slide__img"></div>
+			  <div class="swiper-slide"><img src="/cervejaria-speranza/img/slide4.jpg" alt="" class="swiper-slide__img"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		  </div>
+
+			<div class="principal-apresentacacao">
+				<h1 class="principal-apresentacao__titulo"> Pilsen, American Wheat, Vienna Lager, American IPA & Chopp
+					de vinho! </h1>
+				<h2 class="principal-apresentacao__texto">Somos do interior de Guarapari e prezamos sempre pela
+					qualidade!
+
+					Somos a CERVEJARIA SPERANZA.
+
+					Utilizamos os melhores insumos para proporcionar experiências incríveis aos nossos clientes.</h2>
+			</div>
+
+			<picture>
+				<source media="(max-width: 1023px)" srcset="img/bgmobile.jpg" class="banner__principal-max">
+				<source media="(min-width: 1024px)" srcset="img/fundoBG1.jpg" class="banner__principal-min">
+				<img src="img/fundoBG1.jpg" alt="Foto da frente da cervejaria" class="banner-principal">
+			</picture>
+
+			<p></p>
+			<a name="Sobre"></a>
+			<section class="conteudo-principal container-main">
+				<h2 class="titulo-padrao">Sobre nós</h2>
+				<hr class="conteudo-hr">
+				<p class="conteudo-principal__texto">"Fundada em 2015, a cerveja Speranza nasceu de uma paixão entre
+					amigos,
+					que acabou virando negócio devido à procura e curiosidade das pessoas em experimentar uma cerveja
+					feita
+					de maneira artesanal. Começamos fornecendo para bares e restaurantes da região, mas devido à alta
+					demanda pelas nossas cervejas, sentimos a necessidade de expandir a nossa produção e no final de
+					2019,
+					demos início ao projeto de expansão da Cervejaria Speranza. Nos instalamos na Rota da Ferradura, que
+					fica localizada na região rural de Guarapari, contemplando os distritos de Boa Esperança e Buenos
+					Aires,
+					lugar de incrível beleza natural!"</p>
+			</section>
+
+			<section class="conteudo-premio container-main">
+				<img src="img/premiadaEditada.png"
+					alt="Foto de uma caneca cheia com a cerveja premiada em cima de um tronco e o selo da premiação na parte superior direita da foto."
+					class="conteudo-premio__imagem">
+				<p class="conteudo-premio__texto">Nossa cerveja <b>Belgian Strong Ale</b> levou a medalha de prata na
+					categoria Ale Styles | Belgian-Style no campeonato BRASIL BEER CUP/2021 realizado em
+					Florianópolis/SC.
+				</p>
+				<a name="Mapa"></a>
+			</section>
+
+			<section class="conteudo-mapa container-main">
+				<h2 class="conteudo-mapa__titulo titulo-padrao">Onde Encontrar</h2>
+				<hr class="conteudo-hr">
+				<div class="conteudo-mapa__container">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14938.512101839746!2d-40.5756125!3d-20.6032429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95b3be3867c6680e!2sCervejaria%20Speranza!5e0!3m2!1sen!2sbr!4v1663863210375!5m2!1sen!2sbr"
+						style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+						class="mapa"></iframe>
+				</div>
+			</section>
+
+			<a name="Contato"></a>
+			<section class="conteudo-contato container-main">
+				<h2 class="conteudo-contato__titulo titulo-padrao">Contato</h2>
+				<hr class="conteudo-hr">
+				<div class="container-social">
+					<p class="conteudo-conteudo__texto">Entre em contato conosco através dos links abaixo:</p>
+					<ul class="container-social__lista">
+						<li class="container-social__item"><img src="img/email.svg" class="container-social__icone"><a
+								href="" target="_blank"
+								class="container-social__link">cervejariasperanza@email.com</a></img></li>
+						<li class="container-social__item"><img src="img/instagramIcon.svg"
+								class="container-social__icone"><a href="https://www.instagram.com/cervejariasperanza/"
+								target="_blank" class="container-social__link">Instagram</a></img></li>
+						<li class="container-social__item"><img src="img/wppIcon.svg" class="container-social__icone"><a
+								href="https://api.whatsapp.com/send?phone=5527999021122&text=Ol%C3%A1%2C%20preciso%20de%20uma%20ajuda.%20"
+								target="_blank" class="container-social__link">Whatsapp</a></img></li>
+					</ul>
+				</div>
+			</section>
+	</main>
+
+	<footer class="rodape">
+		<div class="rodape-container">
+			<img src="img/LOGO FINAL 4.png" alt="logo" class="rodape-logo">
+			<p class="rodape-copyright">© Ceverjaria Speranza - 2022</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+		var swiper = new Swiper(".mySwiper", {
+		  spaceBetween: 30,
+		  centeredSlides: true,
+		  autoplay: {
+			delay: 4000,
+			disableOnInteraction: false,
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		  },
+		});
+	  </script>
+</body>
+
+</html>

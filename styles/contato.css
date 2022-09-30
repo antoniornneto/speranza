@@ -1,0 +1,30 @@
+.conteudo-contato {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.container-social__lista {
+    text-align: center;
+}
+
+.container-social__item {
+    display: flex;
+    gap: .6em;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.container-social__icone {
+    width: 30px;
+}
+
+.container-social__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.container-social__link:active {
+    color: var(--laranja-escuro);
+}

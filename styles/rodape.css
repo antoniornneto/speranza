@@ -1,0 +1,21 @@
+.rodape {
+    background-color: var(--verde-escuro);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-container {
+    text-align: center;
+}
+
+.rodape-logo {
+    width: 200px;
+}
+
+.rodape-copyright {
+    color: var(--branco-gelo);
+    padding-top: 1em;
+    font-size: .8em;
+}

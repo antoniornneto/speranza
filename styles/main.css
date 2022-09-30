@@ -1,0 +1,32 @@
+.titulo-padrao {
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--verde-escuro);
+    text-align: center;
+    margin: 1em 0;
+}
+
+.principal-apresentacacao{
+    text-align: center;
+    margin: 3em 0;
+}
+
+.principal-apresentacao__titulo{
+    font-size: 2em;
+    color: var(--verde-escuro);
+    font-family: var(--fonte-secundaria);
+    line-height: 1em;
+    font-weight: 500;
+}
+
+.principal-apresentacao__texto {
+    text-align: justify;
+    margin: .5em 1em;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.conteudo-hr {
+    width: 50vw;
+    margin-bottom: 1.8em;
+}
