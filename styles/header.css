@@ -26,7 +26,7 @@
 .lista-menu {
     border-bottom: 3px solid var(--verde-claro);
     height: 0;
-    margin: 0 auto 1em;
+    margin: 0 auto 2em;
     transition: height ease-in-out .2s;
     width: 95vw;
 }
